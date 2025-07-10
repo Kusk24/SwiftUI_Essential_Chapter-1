@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C53DADD82E205ED800D44277 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53DADD62E205C0900D44277 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		C53DADD62E205C0900D44277 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C53F52EB2DDABBAB0018B814 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -23,16 +28,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53DADD82E205ED800D44277 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C53DADD52E205C0900D44277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53DADD62E205C0900D44277 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C53F52E22DDABBAB0018B814 = {
 			isa = PBXGroup;
 			children = (
 				C53F52ED2DDABBAB0018B814 /* Landmarks */,
+				C53DADD52E205C0900D44277 /* Frameworks */,
 				C53F52EC2DDABBAB0018B814 /* Products */,
 			);
 			sourceTree = "<group>";
